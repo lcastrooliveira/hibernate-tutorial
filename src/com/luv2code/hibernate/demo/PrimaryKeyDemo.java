@@ -14,7 +14,7 @@ public class PrimaryKeyDemo {
 				.configure("hibernate.cfg.xml")
 				.addAnnotatedClass(Student.class)
 				.buildSessionFactory();
-		//create a session
+		//create a sess ion
 		final Session session = factory.getCurrentSession();
 
 		try {
